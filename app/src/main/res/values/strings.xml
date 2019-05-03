@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mathshapes</string>
+    <string name="square_name">Square</string>
+    <string name="circle_name">Circle</string>
+    <string name="rectangle_name">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="result">result</string>
+    <string name="newop">new operation</string>
+
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TriangleActivity"
+    android:orientation="vertical"
+    android:background="#C7B8CC"
+    >
+    <EditText
+        android:id="@+id/x_fild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter x: "
+        android:inputType="number"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/h_fild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter h : "
+        android:inputType="number"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:id="@+id/area_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="area"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:fontFamily="casual"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/permiter_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="permiter"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp"
+            android:padding="20dp"
+            android:gravity="center"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result_txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:fontFamily="casual"
+
+        android:gravity="center"
+        android:hint="00.00"
+        android:inputType="numberDecimal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/result_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:background="@drawable/butoon_shape"
+        />
+
+
+    <Button
+        android:id="@+id/newoperation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new operation"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:fontFamily="casual"
+        android:background="@drawable/butoon_shape"
+        />
+
+
+
+
+</LinearLayout>
